@@ -1,0 +1,41 @@
+clear
+shutdown
+shutdown -c
+clear
+exit
+shutdown 0
+history
+history -a
+#1758185531
+export HISTSIZE=10000
+#1758185710
+export HISTSIZEFILE=20000
+#1758185998
+export HISTTIMEFORMAT="%F %T"
+#1758186006
+export HISTTIMEFORMAT="%F %T "
+#1758186067
+history
+#1758186082
+shutdown 0
+clear
+ls 
+ls -l
+ls -la
+clear
+nano ~/.bashrc
+CLEAR
+clear
+nano ~/.bashrc
+clear
+uname -a
+uname -r
+df -h
+du --help
+man du
+clear
+du -sh /etc
+sudo du -sh /etc
+free -h
+shutdown -0
+shutdown 0
