@@ -39,3 +39,65 @@ sudo du -sh /etc
 free -h
 shutdown -0
 shutdown 0
+ps aux
+# o
+top
+#o
+htop 
+sudo apt install htop
+htop
+sudo apt install htop
+htop
+ps -la
+pstree
+ping google.com
+kill -9 <PID_firefox>
+#!/bin/bash
+trap "echo 'Has presionado Ctrl+C, pero el script sigue vivo'" SIGINT
+while true; do     echo "Trabajando...";     sleep 2; done
+systemctl status ssh
+sudo apt install ssh
+systemctl status ssh
+sudo systemctl start ssh
+sudo systemctl disable ssh
+sudo systemctl enable ssh
+ls -la ~
+mkdir ~/prueba
+echo "Hola Linux" > ~/prueba/notas.txt
+cp ~/prueba/notas.txt ~/prueba/notas2.txt
+mv ~/prueba/notas2.txt ~/prueba/notas3.txt
+rm ~/prueba/notas3.txt
+ls -la > listado.txt
+echo "Fin del listado" >> listado.txt
+let a=3/0 2>/dev/null
+ps aux | grep bash
+tail -n 5 listado.txt
+mkfifo cola
+cat cola
+echo "Hola desde la otra terminal" > cola
+history
+ls -l cola
+#tty1
+sudo apt install socat
+socat -u TCP-LISTEN:7777 STDOUT
+#tty2
+socat -u STDIN TCP:127.0.0.1:7777
+ping -c 4 google.com
+ip a
+# o
+ifconfig
+ss -tuln
+# o
+netstat -tuln
+nslookup google.com
+sudo apt install nslookup
+dig google.com
+# o
+host google.com
+ssh usuario@127.0.0.1
+ssh alvaro@127.0.0.1
+scp archivo.txt alvaro@127.0.0.1:C:\Users\alvaro
+sudo adduser alumno1
+sudo passwd alumno1
+chmod 755 archivo.txt
+sudo chown alumno1 archivo.txt
